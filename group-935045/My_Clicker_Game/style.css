@@ -1,0 +1,84 @@
+.gold{
+    text-align: right;
+    color: crimson;
+    font-size: 3em;
+
+
+}
+.title{
+    text-align: center;
+    font-size: 3em;
+    color: #ffe6ff;
+    text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+      -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+      0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+    animation: shine 2s forwards, flicker 3s infinite;
+
+}
+
+    
+.button{
+        position:relative;
+        display:inline-block;
+        margin:20px;
+        background-color: black;
+      }
+      
+      .button span{
+        color: lightgreen;
+        font-family:Helvetica, sans-serif;
+        font-weight:bold;
+        font-size:36px;
+        text-align: center;
+        text-decoration:none;
+        background-color:#FFA12B;
+        display:block;
+        position:relative;
+        padding:20px 40px;
+        
+      }
+      
+      .button span:active{
+        top:10px;
+        background-color:#F78900;
+      }
+      
+.bg {
+        animation:slide 15s ease-in-out infinite alternate;
+        background-image:url("/Users/guirassymohamed/group-935045/images\ \(1\).jpeg");
+        bottom:0;
+        left:-50%;
+        position:fixed;
+        right:-50%;
+        top:0;
+        z-index:-1;   
+        
+      }
+      
+      @keyframes slide {
+        0% {
+          transform:translateX(10%);
+        }
+      }
+.button1{
+    margin:20px;
+    background-color: gold;
+    margin-right: 0;
+  }
+  
+  .button1 span{
+    color: black;
+    font-weight:bold;
+    font-size:20px;
+    text-align: center;
+    text-decoration:none;
+    background-color:#FFA12B;
+    position:relative;
+    margin-right: 0;
+    
+  }
+  
+  .button1 span:active{
+    top:10px;
+    margin-right: 0;
+  }
