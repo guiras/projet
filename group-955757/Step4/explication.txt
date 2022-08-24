@@ -1,0 +1,1 @@
+Pour le Step4 j'ai utiliser la fonction replace sur chaque voyelle puis j'ai envoyer un return s

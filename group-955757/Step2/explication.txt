@@ -1,0 +1,2 @@
+Dans le deuxieme exos j'ai return un entier vue que l'on voulait une valeur arrondi
+puis j'ai multiplier le temps par O.5.

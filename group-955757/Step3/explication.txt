@@ -1,0 +1,3 @@
+Dans le Step3 on cree une liste vide que l'on nomme MonkeyList.
+Ensuite on fait une boucle for i allant 1 a n et chaque valeur de i on l'ajoute dans la liste MonkeyList.
+Puis on l'a return

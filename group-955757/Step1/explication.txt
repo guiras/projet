@@ -1,0 +1,2 @@
+Dans le premier exos j'ai mis dans le return une fonction qui lorsque l'on fait le + sa additionne la value1 et la value2.
+j'ai repeter l'opperation avec les autres signes en modifiants la maniere de le calculer puis j'ai refermé la fonction.

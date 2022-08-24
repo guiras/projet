@@ -1,0 +1,4 @@
+Dans le step5 on cree une variable r qui envoie une chaine de caractère vide.
+Puis on fait une boucle for i allant dans la chaine de caractère num.
+Puis on fais r égale a r qui va se deplacer dans la chaine de caractère et va mettre chaque caratere au carre.
+Et pour finir va return int(r).
