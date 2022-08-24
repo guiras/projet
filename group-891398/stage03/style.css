@@ -1,0 +1,19 @@
+.title {
+  color: #54a6b1;
+  text-align: center;
+}
+       
+.header{
+    text-align: left;
+      font-size: 20px;
+
+}
+
+.menu{
+    text-align: right;
+      font-size: 20px;
+
+}
+.body{
+    background-color: yellow;
+}

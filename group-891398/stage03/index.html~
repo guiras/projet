@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title class="title">My Portfolio</title>
+<nav class="menu">
+    <h1 class="h1">Mohamed Guirassy</h1>
+   <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="index.html">Projects</a></li>
+<h2 class="h2">Welcome to my portfolio !</h2>
+</nav>
+
+  </head>
+
+  <body class="body">
+
+  </body>
+
+  <link rel="stylesheet" href="style.css" type="text/css">
+</html>

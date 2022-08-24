@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <form>
+      <fieldset>
+  <p>Informations personnelles:</p>
+  <div>
+    <label for="Civilite">Civilite:</label>
+    <input type="radio" id="CivilitéChoice1"
+     name="Civilité" value="Madame">
+    <label for="CivilitéChoice1">Madame</label>
+
+    <input type="radio" id="CivilitéChoice2"
+     name="Civilité" value="Monsieur">
+    <label for="CivilitéChoice2">Monsieur</label>
+  </div>
+  <div>
+    <label for="Prenom">Prenom:</label>
+    <input type="text" size="20">
+  </div>
+  <div>
+    <label for="Nom">Nom:</label>
+    <input type="text" size="20">
+  </div>
+  <div>
+    <label for="Email">Email:</label>
+<input type="email"pattern=".+@globex\.com" size="30">
+  </div>
+  <div>
+    <label for="Numero de telephone">Numero de telephone:</label>
+    <input type="tel" minlength="0" maxlength="10" size="15">
+    <small>+33</small>
+  </div>
+  </fieldset>
+    </form>
+    <form>
+      <fieldset>
+      <p>Message:</p>
+      <div>
+        <p>Rendez-vous:</p>
+        <label for="heure">heure:</label>
+<select name="Randez-vous">
+    <option value="heure">choisir</option>
+  <option value="heure">09H-10H</option>
+    <option value="heure">10H-11H</option>
+    <option value="heure">11H-12H</option>
+    <option value="heure">13H-14H</option>
+    <option value="heure">14H-15H</option>
+    <option value="heure">15H-16H</option>
+</select>
+      </div>
+      <div>
+        <label for="start">date:</label>
+<input type="date" id="start" name="trip-start"
+       value="2021-11-05"
+       min="2021-01-01">
+      </div>
+      <div>
+        <label for="story">Contenu:</label>
+<textarea rows="15" cols="50">
+</textarea>
+      </div>
+      <div>
+      <input type="submit" value="Envoyer le formulaire">
+      </div>
+      <link rel="stylesheet" href="style.css" type="text/css">
+    </form>
+    </fieldset>
+</head>
+  <about class="about3">
+  </about>
+  <body>
+    </body>
+</html>
